@@ -153,15 +153,4 @@ display: none;
   margin: 0;
 }
 
-.detailPagePrimaryContent {
-    position: relative;
-    width: 60vw;
-    background: transparent;
-    min-height: 25vh;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    text-shadow: 1px 1px 5px rgb(20, 20, 20);
-    padding: 0 !important;
-  }
 
