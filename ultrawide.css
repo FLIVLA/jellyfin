@@ -1,3 +1,11 @@
 .headerCastButton {
     display: none;
 }
+
+.headerSyncButton {
+    display: none;
+}
+
+.material-icons.person {
+    display: none;
+}
