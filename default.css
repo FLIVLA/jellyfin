@@ -110,7 +110,7 @@ display: none;
 }
 
 
-/* .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
   background-color: rgba(0, 0, 0, 0.5);
 backdrop-filter: blur(10px);
 }
@@ -127,14 +127,14 @@ backdrop-filter: blur(15px);
 
 .itemTags {
 display: none;
-} */
+}
 
 /* CAST AND CREW STYLING */
 
 /* Shrink and square (or round) cast thumnails */
-/* #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
- */
+
 
 /*.nameContainer {
 display: none;
@@ -142,7 +142,7 @@ display: none;
 
 
 /* Size episode preview images in a more compact way */
-/* .listItemImage.listItemImage-large.itemAction.lazy {
+.listItemImage.listItemImage-large.itemAction.lazy {
   height: 150px;
 }
 .listItem-content {
@@ -151,6 +151,17 @@ display: none;
 .secondary.listItem-overview.listItemBodyText {
   height: 61px;
   margin: 0;
-} */
+}
 
+/* .detailPagePrimaryContent {
+    position: relative;
+    width: 60vw;
+    background: transparent;
+    min-height: 25vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-shadow: 1px 1px 5px rgb(20, 20, 20);
+    padding: 0 !important;
+  } */
 
