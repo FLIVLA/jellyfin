@@ -153,13 +153,6 @@ display: none;
   margin: 0;
 }
 
-
-
-#itemDetailPage .portraitCard  {
-    transform: scale(0.7);
-}
-
-
 .detailPagePrimaryContent {
     position: relative;
     width: 60vw;
