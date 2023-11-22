@@ -1,11 +1,77 @@
-.headerCastButton {
+.headerCastButton,
+.headerSyncButton,
+.headerUserButton,
+.headerHomeButton {
     display: none;
 }
 
-.headerSyncButton {
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#itemDetailPage .portraitCard {
     display: none;
 }
 
-.headerUserButton {
+#itemBackdrop {
     display: none;
+}
+
+.detailPageWrapperContainer {
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: linear-gradient(to right, rgb(0,0,0, 0.85) 70%, transparent 100%);
+    position: absolute;
+    top: 0;
+    padding-right: 300px;
+}
+
+.detailPageContent {
+    padding-left: 200px;
+    padding-bottom: 50px;
+} 
+
+.layout-desktop .detailPagePrimaryContainer {
+    padding-left: 200px;
+    position: relative;
+}
+
+.detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+    margin-top: 400px;
+    background-color: transparent;
+}
+
+.detailPagePrimaryContainer {
+    position: relative; 
+}
+
+.detailLogo {
+    position: relative;
+    left: 200px;
+    top: 150px;
+    width: 640px;
+    height: 248px;
+    z-index: 3;
+} 
+
+.nameContainer {
+    display: none;
+}
+
+.emby-select-withcolor {
+    color: inherit;
+    background: #29292980;
+    border: 0.07em solid #292929;
+}
+
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+}
+
+.pageWithAbsoluteTabs:not(.noSecondaryNavPage) {
+    padding-top: 6.7em!important;
+    background: black;
+    height: 100wv;
 }
